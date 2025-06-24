@@ -1,2 +1,13 @@
-# Chat-with-multiple-PDFs
- chatbot that lets you upload multiple PDFs and ask questions about their content using local LLMs like Qwen and multilingual embeddings
+git clone https://github.com/username/pdf-chatbot.git
+cd pdf-chatbot
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run use.py
+# Download model (optional if already downloaded)
+ollama pull qwen:7b
+
+# Start Ollama server
+ollama run qwen:7b
