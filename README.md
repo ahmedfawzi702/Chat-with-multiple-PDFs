@@ -1,4 +1,4 @@
-git clone https://github.com/ahmedfawzi702/pdf-chatbot.git
+git clone https://github.com/ahmedfawzi702/Chat-with-multiple-PDFs.git
 cd pdf-chatbot
 
 # Install dependencies
